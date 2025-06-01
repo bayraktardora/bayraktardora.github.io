@@ -269,5 +269,7 @@ button{
     cursor: pointer;
 }
 @media screen and (max-width: 600px) {
- font-size: 10px;
+ button{
+     font-size: 10px;
+ }
 }
