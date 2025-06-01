@@ -268,7 +268,7 @@ body {
 button{
     cursor: pointer;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 896px) {
  .brown {
     background-color: rgb(121, 79, 25);
     color: white;
