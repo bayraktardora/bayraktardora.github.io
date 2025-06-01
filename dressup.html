@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DressUp!</title>
+    <link rel="stylesheet" href="dressup.css">
+</head>
+
+<body>
+    <div class="center">
+
+        <div class="imgs-container">
+            <img src="/img/character.png" alt="character" class="character">
+
+            <img src="/img/hair-brown.png" alt="brown-hair" class="hair hair-brown" id="hair-brown">
+            <img src="/img/hair-yellow.png" alt="yellow-hair" class="hair hair-yellow" id="hair-yellow">
+            <img src="/img/hair-purple.png" alt="purple-hair" class="hair hair-purple" id="hair-purple">
+            <img src="/img/hair-green.png" alt="green-hair" class="hair hair-green" id="hair-green">
+
+
+            <img src="/img/shirt-green.png" alt="shirt-green" class="shirt shirt-green" id="shirt-green">
+            <img src="/img/shirt-gray.png" alt="shirt-gray" class="shirt shirt-gray" id="shirt-gray">
+            <img src="/img/shirt-yellow.png" alt="shirt-yellow" class="shirt shirt-yellow" id="shirt-yellow">
+            <img src="/img/shirt-red.png" alt="shirt-red" class="shirt shirt-red" id="shirt-red">
+            <img src="/img/shirt-yellow-red.png" alt="shirt-yellow-red" class="shirt shirt-yellow-red" id="shirt-yellow-red">
+            <img src="/img/shirt-dress.png" alt="shirt-dress" class="shirt shirt-dress" id="shirt-dress">
+
+
+            <img src="/img/pant-blue.png" alt="pant-blue" class="pant pant-blue" id="pant-blue">
+            <img src="/img/pant-brown.png" alt="pant-brown" class="pant pant-brown" id="pant-brown">
+            <img src="/img/pant-gray.png" alt="pant-gray" class="pant pant-gray" id="pant-gray">
+            <img src="/img/pant-skirt.png" alt="pant-skirt" class="pant pant-skirt" id="pant-skirt">
+
+
+            <img src="/img/shoe-black.png" alt="shoe-black" class="shoe shoe-black" id="shoe-black">
+            <img src="/img/shoe-green.png" alt="shoe-green" class="shoe shoe-green" id="shoe-green">
+            <img src="/img/shoe-purple.png" alt="shoe-purple" class="shoe shoe-purple" id="shoe-purple">
+           
+
+        </div>
+    </div>
+    <div class="bottom">
+        <h3 style="color: aliceblue;">Hair:</h3>
+        <button class="brown" onclick="Hair('brown')">brown</button>
+        <button class="yellow" onclick="Hair('yellow')">yellow</button>
+        <button class="purple" onclick="Hair('purple')">purple</button>
+        <button class="green" onclick="Hair('green')">green</button>
+
+        <h3 style="color: aliceblue;">Top:</h3>
+        <button class="gray" onclick="Shirt('gray')">gray</button>
+        <button class="yellow" onclick="Shirt('yellow')">yellow</button>
+        <button class="red" onclick="Shirt('red')">red</button>
+        <button class="green" onclick="Shirt('green')">green</button>
+        <button class="yellow-red" onclick="Shirt('yellow-red')">yellow & red</button>
+        <button class="blue" onclick="Shirt('dress')">dress</button>        
+
+        <h3 style="color: aliceblue;">Bottom:</h3>
+        <button class="gray" onclick="Pant('gray')">gray</button>
+        <button class="blue" onclick="Pant('blue')">blue</button>
+        <button class="brown" onclick="Pant('brown')">brown</button>
+        <button class="pink" onclick="Pant('skirt')">skirt</button>
+
+        <h3 style="color: aliceblue;">Shoe:</h3>
+        <button class="black" onclick="Shoe('black')">black</button>
+        <button class="green" onclick="Shoe('green')">green</button>
+        <button class="purple" onclick="Shoe('purple')">purple</button>
+    </div>
+
+
+
+
+    <script src="dressup.js"></script>
+</body>
+
+</html>
