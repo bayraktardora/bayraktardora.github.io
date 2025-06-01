@@ -2,12 +2,12 @@ body{
     background-color: rgb(18, 102, 91);
     font-family: 'Courier New', Courier, monospace;
     color: white;
+    text-align:center;
 }
 a:visited,link{
     color: white;
 }
-.potato-link{
-    display: flex;            
+.potato-link{        
     border: 5px solid rgb(196, 196, 40);
     border-radius: 10px;
     text-decoration: none;
@@ -20,8 +20,6 @@ a:visited,link{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-    height: 150px;
 }
 .dressup-link{
     border: 5px solid palevioletred;
