@@ -270,7 +270,7 @@ button{
 }
 @media screen and (max-width: 600px) {
   .bottom{
-      max-width: 40%;
+      max-width: 10%;
   }
  
 }
