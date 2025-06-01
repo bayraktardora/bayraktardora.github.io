@@ -15,7 +15,6 @@ a:visited,link{
     font-size: 50px;
     background-color: rgb(173, 146, 113);
     width: 51%;
-    text-align: center;
 }
 .potato-container{
     display: flex;
@@ -29,7 +28,6 @@ a:visited,link{
     font-size: 50px;
     background-color: rgb(240, 164, 189);
     width: 51%;
-    text-align: center;
 }
 .dressup-container{
     display: flex;
