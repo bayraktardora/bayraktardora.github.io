@@ -4,11 +4,11 @@ body{
     color: white;
     text-align:center;
 }
-a:visited,link{
+a:visited, a:link{
     color: white;
     text-align: center;
 }
-.potato-link{        
+.potato-link{
     border: 5px solid rgb(196, 196, 40);
     border-radius: 10px;
     text-decoration: none;
