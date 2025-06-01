@@ -20,6 +20,7 @@ a:visited,link{
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    height: 150px;
 }
 .dressup-link{
     border: 5px solid palevioletred;
