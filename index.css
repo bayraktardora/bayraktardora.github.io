@@ -19,6 +19,7 @@ a:visited,link{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .dressup-link{
     border: 5px solid palevioletred;
